@@ -83,6 +83,26 @@
 
 .asktao {
   width: 500px;
-  height: 200px;
+  height: 300px;
   box-sizing: content-box;
+}
+
+.asktao .swiper-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.asktao img {
+  width: 372px;
+  height: 225px;
+}
+
+
+.asktao .swiper-arrow-left {
+  left: 20px;
+}
+
+.asktao .swiper-arrow-right {
+  right: 20px;
 }
