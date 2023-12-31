@@ -180,7 +180,6 @@ class fullSwipter {
   }
   swiperReset() {
     let swiperList = this.state._swiperList
-    console.log(this);
     let swiperItemWidth = swiperList.offsetWidth;
     let index = this.state.index;
 
@@ -237,5 +236,3 @@ const PAGE = {
 }
 
 PAGE.init()
-
-console.log('ss');

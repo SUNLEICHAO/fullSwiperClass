@@ -7,7 +7,6 @@
   position: relative;
   height: 360px;
   overflow: hidden;
-  width: 600px;
   margin: 0 auto;
   margin-bottom: 100px;
   border: 10px solid #666;
@@ -44,6 +43,7 @@
   height: 20px;
   border-radius: 50%;
   background-color: #F2EFE6;
+  margin-right: 10px
 }
 
 .swiper-pagination-switch.active {
@@ -77,8 +77,11 @@
   opacity: 1;
 }
 
-.asktao {
+.swiper-wrapper.w-600 {
+  width: 600px;
+}
 
+.asktao {
   width: 500px;
   height: 200px;
   box-sizing: content-box;
